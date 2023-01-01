@@ -7,6 +7,6 @@ require('./models/associations');
 
 const server = new Server();
 server.listen();
-
+console.log();
 const admin = new Admin('Chicala', 'Alejandro', "ale@ale.com", "123");
 admin.save();
